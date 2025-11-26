@@ -14,7 +14,7 @@ public class BuscaMinas extends JFrame implements ActionListener {
     int[][] numeros = new int[FILAS][COLUMNAS];
 
     int minas;
-    int tiempoRestante; // en segundos
+    int tiempoRestante; 
     JLabel etiquetaTiempo = new JLabel("Tiempo: ");
     Timer temporizador;
 
